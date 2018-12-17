@@ -19,7 +19,7 @@ const large = {
     align: 'left'
 };
 
-let background = PIXI.Sprite.fromImage('C:/Users/Roman/Downloads/smart-pacmans-master/smart-pacmans-master/assets/background.jpg');
+let background = PIXI.Sprite.fromImage('background.jpg');
 background.width = app.screen.width;
 background.height = app.screen.height;
 app.stage.addChild(background);
