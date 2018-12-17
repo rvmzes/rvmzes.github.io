@@ -1,1 +1,2 @@
-# rvmzes.github.io
+# smart-pacmans
+Smart pacmans in Javascript
