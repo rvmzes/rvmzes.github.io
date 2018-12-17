@@ -1,9 +1,9 @@
 let app = new PIXI.Application(window.innerWidth, window.innerHeight, {backgroundColor : 0x1099bb});
 document.body.appendChild(app.view);
 
-const pacmanTexture = PIXI.Texture.fromImage('C:/Users/Roman/Downloads/smart-pacmans-master/smart-pacmans-master/assets/pacman.png');
-const ghostTexture = PIXI.Texture.fromImage('C:/Users/Roman/Downloads/smart-pacmans-master/smart-pacmans-master/assets/ghost.png');
-const ripTexture = PIXI.Texture.fromImage('C:/Users/Roman/Downloads/smart-pacmans-master/smart-pacmans-master/assets/rip.png');
+const pacmanTexture = PIXI.Texture.fromImage('assets/pacman.png');
+const ghostTexture = PIXI.Texture.fromImage('assets/ghost.png');
+const ripTexture = PIXI.Texture.fromImage('assets/rip.png');
 
 const small = {
     fontFamily: 'Courier',
